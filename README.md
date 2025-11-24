@@ -82,7 +82,11 @@ GOOGLE_API_KEY=your-google-api-key-here
 ```bash
 jupyter notebook
 ```
-
+#### Note: When using FAISS, place the following code before using
+```bash
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+```
 ### 4. Begin with Notebook 01
 
 Open `01_Introduction_and_Fundamentals.ipynb` and work through the notebooks in order.
