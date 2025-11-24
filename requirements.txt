@@ -58,9 +58,10 @@ pypdf
 # Web scraping (required for Notebook 02)
 beautifulsoup4
 lxml
-
+#For json schema
+jq
 # Markdown (optional)
-# unstructured==0.18.0
+unstructured
 
 # ============================================================================
 # UTILITIES
