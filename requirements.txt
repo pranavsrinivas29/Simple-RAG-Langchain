@@ -80,6 +80,11 @@ ipykernel==6.30.1
 # Numpy (required for similarity calculations)
 numpy==2.3.0
 
+# Pandas
+pandas
+
+# Ragas (for evaluation)
+ragas==0.3.7
 # ============================================================================
 # DEVELOPMENT & TESTING (optional)
 # ============================================================================
